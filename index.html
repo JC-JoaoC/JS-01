@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 1</title>
+  </head>
+  <body style="background-color: #000;">
+    <script>
+      let numero1 = Number(window.prompt("Insira o primeiro número"))
+      let numero2 = Number(window.prompt("Insira o segundo número"))
+
+      let soma = numero1 + numero2
+      let subtracao = numero1 - numero2
+      let multiplicacao = numero1 * numero2
+      let divisao = numero1 / numero2
+      let restoDivisao = numero1 % numero2
+      let somaParImpar = soma % 2 === 0 ? "par" : "ímpar"
+      let igualOuDiferente = numero1 === numero2 ? "iguais" : "diferentes"
+
+      window.alert(`A soma dos dois números: ${soma}`)
+      window.alert(`A subtração dos dois números: ${subtracao}`)
+      window.alert(`A multiplicação dos dois números: ${multiplicacao}`)
+      window.alert(`A divisão dos dois números: ${divisao}`)
+      window.alert(`O resto da divisão dos dois números: ${restoDivisao}`)
+      window.alert(`A soma dos dois números é ${somaParImpar} (${soma})`)
+      window.alert(`O números inseridos são ${igualOuDiferente}`)
+    </script>
+  </body>
+</html>
